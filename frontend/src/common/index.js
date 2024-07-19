@@ -85,6 +85,10 @@ const SummaryApi ={
         url : `${backendDomin}/api/order-list`,
         method : 'get'
     },
+    allOrder : {
+        url : `${backendDomin}/api/all-order`,
+        method : 'get'
+    },
     forgotPassword : {
         url : `${backendDomin}/api/forgot-password`,
         method : 'post'
